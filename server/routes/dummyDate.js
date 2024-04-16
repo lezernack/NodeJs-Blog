@@ -3,14 +3,14 @@ const Post = require("../models/post");
 function insertPostDate() {
   Post.insertMany([
     {
-      title: "Post One",
-      body: "This is the first post we will be adding.",
+      title: "Entry One",
+      body: "This is the first entry into my new blog.",
     },
     {
-      title: "Post Two",
-      body: "This is another post we will including in our database.",
+      title: "Entry Two",
+      body: "This is another entry I will including in my blog.",
     },
   ]);
 }
 
-// insertPostDate();
+insertPostDate();
