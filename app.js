@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const expressLayouts = require("express-ejs-layout");
+const expressLayouts = require("express-ejs-layouts");
 const express = require("express");
 const app = express();
 const PORT = 4000;
